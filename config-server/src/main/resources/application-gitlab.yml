@@ -1,0 +1,14 @@
+#####################################################################
+# Configuration Spring cloud
+#####################################################################
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri:                       http://gitlab.ju.globaz.ch/TM-MAS-RAD/config-repo.git
+          username:                  sce
+          password:                  Vre3nabe
+      # ne pas ecraser les arguments jvm
+      overrideSystemProperties:             false
+      overrideNone:                         true
