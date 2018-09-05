@@ -1,7 +1,7 @@
 
 
-# Scénario 7
-Récupération de la configuration des services métiers par la gateway
+# Scénario 9
+Configuration centralisée des services
 
 Ce scénario se base sur un services applicatifs: 
 * **personnes-services**: le service de gestion des personnes
